@@ -6,7 +6,7 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import FeaturesSection from "@/components/FeaturesSection";
-import DemoSection from "@/components/DemoSection";
+import GallerySection from "@/components/GallerySection";
 import BinaryCalculator from "@/components/BinaryCalculator";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
@@ -15,12 +15,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Index = () => {
   useEffect(() => {
-    // Smooth scroll behavior
     ScrollTrigger.defaults({
       markers: false,
     });
 
-    // Refresh ScrollTrigger after page load
     ScrollTrigger.refresh();
 
     return () => {
@@ -35,7 +33,7 @@ const Index = () => {
       <AboutSection />
       <HowItWorksSection />
       <FeaturesSection />
-      <DemoSection />
+      <GallerySection />
       <BinaryCalculator />
       <CTASection />
       <Footer />
