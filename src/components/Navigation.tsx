@@ -29,7 +29,7 @@ const Navigation = () => {
     { href: "#about", label: "About" },
     { href: "#how-it-works", label: "How It Works" },
     { href: "#features", label: "Features" },
-    { href: "#demo", label: "Demo" },
+    { href: "#gallery-showcase", label: "Gallery" },
     { href: "#calculator", label: "Calculator" },
   ];
 
@@ -64,10 +64,10 @@ const Navigation = () => {
         </div>
 
         <button
-          onClick={() => scrollToSection("#demo")}
+          onClick={() => scrollToSection("#gallery-showcase")}
           className="btn-neon text-xs px-6 py-2"
         >
-          Try Demo
+          View Gallery
         </button>
       </div>
     </nav>
